@@ -1,6 +1,6 @@
 /*============================================================================*\
 
-	JavaScript for Shapely
+	JavaScript for Pixadee
 	-----------------------------------------------------------------------
 	© 2015 & 2016 by Carroket, Inc.
 	http://www.carroket.com/
@@ -13,18 +13,18 @@
 
 (function(document, options) {
 
-	var shapely = new Shapely();
+	var pixadee = new Pixadee();
 
-	function Shapely() {
+	function Pixadee() {
 
 		// TO DO: Consider whether any options should be addressed here.
 	}
 
-	// If a namespace was specified, attach shapely to it.
+	// If a namespace was specified, attach pixadee to it.
 
 	if (options instanceof Object && options.namespace instanceof Object) {
 
-		options.namespace.shapely = shapely;
+		options.namespace.pixadee = pixadee;
 	}
 
 })(window.document);
