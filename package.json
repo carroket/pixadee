@@ -1,0 +1,21 @@
+{
+    "name": "pixadee",
+    "version": "0.0.0",
+    "description": "Yet Another JavaScript Drawing Library",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/carroket/pixadee.git"
+    },
+    "author": {
+        "name": "Brian Sexton",
+        "url": "http://www.briansexton.com/"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/carroket/pixadee/issues"
+    },
+    "homepage": "https://github.com/carroket/pixadee#readme"
+}
