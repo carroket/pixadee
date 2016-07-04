@@ -21,11 +21,20 @@ module.exports = function (grunt) {
 					}
 				]
 			}
+		},
+
+		uglify: {
+			build: {
+				files: {
+					'build/pixadee.min.js': ['source/pixadee.js']
+				}
+			}
 		}
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
 	grunt.registerTask('build', ['clean', 'copy']);
 
